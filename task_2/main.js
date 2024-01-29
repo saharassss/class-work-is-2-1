@@ -1,12 +1,18 @@
-console.log("Работает");
-const age = 16;
+let status = true;
 
-if (age >=18) {
-    console.log('вы можете работать!')
-} else { ша (age >=16)
-    console.log('вы можете работать с ограничениями!');
-} else if (age >=14 ) {
-    consjle.log('вы можете работать с разрешением родителей!');
+Consjkt.log('сегодня выжные пары?');
+
+if (  statusPar === true ) {
+    console.log('Сколько сегодня пар?');
+    let countPar = 2;
+
+    if (countPar <4) {
+        console.log('Сиди дома');
+    }   else {
+        console.log('Беги на учебу');
+    } 
+
 } else {
-    console.log('вы еще маленький!');
+    console.log('Сиди дома');
 }
+    
