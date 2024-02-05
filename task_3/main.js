@@ -1,22 +1,15 @@
-// let students = ["Андрей", "Иван", "Стас"];
-// students[50] = "Индекс 50";
-// console.log(students);
+let college = [
+    { name: "Tom", age: 23, group: "ис22" },
+    { name: "bob", age: 15, group: "ис21" },
+    { name: "stan", age: 23, group: "ис22" },
+    { name: "harry", age: 17, group: "ис41" },
+];
+let count = 2
+let studentAge = college[count]["age"];
+let studentName = college[count]["name"];
 
-// let college = [ ["Андрей", "Иван", "Стас"], [205, 111, 304] ];
-// college[1][1] = 112
-// let kab = college[1][1]
-// console.log(kab);
-
-let number = [1, 2, 3, 4, 5, 6, 7];
-
-const coutLenght = 5;
-
-if (number.length === coutLenght) {
-    console.log("ok");
-} else if (number.length < coutLenght) {
-    let result = coutLenght - number.length;
-    console.log(`Длина вашего массива: ${number.length}. Длину массива нужно увеличить до ${coutLenght}. Прибавьте к массиву значение ${result}`);
-} else if (number.length > coutLenght) {
-    result = number.length - coutLenght;
-    console.log(`Длина вашего массива: ${number.length}. Длину массива нужно уменьшить до ${coutLenght}. Удалите из массива значение ${result}`)
+if (college[studentAge]['age >=18']) {
+    console.log(`Студент ${studentName} совершеннолетний. Ему ${studentAge} лет`);
+} else if (studentAge < 18) {
+    consol.log(`Студент ${studentName} не совершеннолетний. Ему ${studentAge} лет`);
 }
